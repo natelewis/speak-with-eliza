@@ -1,0 +1,32 @@
+{
+  "name": "speek-with-eliza",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Nate Lewis",
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --fix; true",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natelewis/speek-with-eliza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natelewis/speek-with-eliza/issues"
+  },
+  "homepage": "https://github.com/natelewis/speek-with-eliza",
+  "dependencies": {
+    "eliza-as-promised": "0.0.2",
+    "elizabot": "0.0.2",
+    "google-speech-from-buffer": "0.0.2",
+    "say": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "engines": {
+    "node": "7"
+  }
+}

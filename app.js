@@ -2,7 +2,7 @@
 
 const ElizaBot = require('eliza-as-promised');
 const say = require('say');
-const MicToSpeech = require('../mic-to-speech');
+const MicToSpeech = require('mic-to-speech');
 const Speech = require('google-speech-from-buffer');
 
 // create our instance of eliza

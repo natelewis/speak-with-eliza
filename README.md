@@ -1,6 +1,6 @@
 # Speak With Eliza
 
-Talk with Eliza physiotherapist bot using speech recognition via Google Speech API and the default text to speech on your computer.  This is just a demonstration of an AI being simplified two 4 Node.js modules.
+Talk with Eliza psychotherapist bot using speech recognition via Google Speech API and the default text to speech on your computer.  This is just a demonstration of an AI being simplified two 4 Node.js modules.
 
 Your voice --> mic-to-speech --> google-speech-from-buffer --> eliza-as-pomised --> say --> your ears -->  repeat
 
